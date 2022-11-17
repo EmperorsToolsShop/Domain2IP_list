@@ -66,7 +66,7 @@ def getasn(domijntjes):
         print(f"{bl}Found{reset}: {gr}AS{r.asn}{reset}")
         output_file.close()
     except Exception as e:
-        print(e)
+        return False
 
 
 def asn_iprange(AS):
